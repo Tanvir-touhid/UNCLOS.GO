@@ -1,0 +1,72 @@
+apply plugin: 'com.android.application'
+
+android {
+
+    signingConfigs {
+        release {
+            storeFile file("src/main/java/com/example/user/unclosgo/unclosgo.jks")
+            storePassword "unclosat1"
+            keyAlias "unclosgo"
+            keyPassword "unclosat1"
+        }
+    }
+    namespace 'com.example.user.unclosgo'
+    compileSdkVersion 35  // ✅ Update to latest supported by your system
+    defaultConfig {
+    applicationId "com.unclos.go"
+    minSdkVersion 26
+    targetSdkVersion 35  // ✅ Match compileSdkVersion
+    versionCode 6
+    versionName "1.0.6"
+    testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"  // ✅ Use AndroidX runner
+    }
+
+
+    viewBinding {
+        enabled = true
+    }
+
+    buildTypes {
+        release {
+            signingConfig signingConfigs.release
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    // Gson for JSON parsing
+    implementation 'com.google.code.gson:gson:2.8.9'
+
+    // AndroidX libraries
+    implementation 'androidx.appcompat:appcompat:1.4.1'
+    implementation 'androidx.recyclerview:recyclerview:1.2.1'
+    implementation 'androidx.core:core-ktx:1.10.1'
+    implementation 'androidx.preference:preference:1.1.1'
+    implementation 'com.google.android.material:material:1.11.0'
+    implementation "androidx.room:room-runtime:2.6.1"
+    annotationProcessor "androidx.room:room-compiler:2.6.1"
+    implementation 'androidx.localbroadcastmanager:localbroadcastmanager:1.1.0'
+    implementation 'com.github.Dimezis:BlurView:version-2.0.3'
+
+
+
+
+
+
+    // JUnit for unit testing
+    testImplementation 'junit:junit:4.13.2'  // ✅ Latest version
+
+    // AndroidX testing
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+    androidTestImplementation 'androidx.test:runner:1.4.0'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test:runner:1.5.2'// ✅ Optional but useful
+}

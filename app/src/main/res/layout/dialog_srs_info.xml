@@ -1,0 +1,16 @@
+<!-- res/layout/dialog_srs_info.xml -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="24dp"
+    android:background="@color/cardBackgroundLight">
+
+    <TextView
+        android:id="@+id/infoText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="• The Ease Factor determines how easily you remember a flashcard. A higher value means longer intervals between reviews.\n\n• The Graduation Easies set how many ‘Easy’ reviews are needed to graduate a new card.\n\n• Fuzz Percentage randomly adjusts review intervals to prevent patterns."
+        android:textSize="16sp"
+        android:textColor="@color/textSecondary"
+        android:lineSpacingExtra="4dp" />
+</ScrollView>

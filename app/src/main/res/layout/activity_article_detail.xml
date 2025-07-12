@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/article_reading_background"
+    android:padding="16dp"
+    android:id="@+id/contentFrame">
+
+    <!-- Main content layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!-- Title -->
+        <TextView
+            android:id="@+id/detailTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:padding="8dp"
+            android:textColor="@color/Special_text"
+            android:justificationMode="inter_word"
+            android:maxLines="5"
+            android:ellipsize="end"
+            android:paddingBottom="8dp" />
+
+        <!-- Divider Line -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1.5dp"
+            android:background="#000000" />
+
+        <!-- Article Content -->
+        <ScrollView
+            android:id="@+id/contentScrollView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:paddingTop="8dp">
+
+            <TextView
+                android:id="@+id/detailContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:lineSpacingExtra="6dp"
+                android:padding="8dp"
+                android:textAlignment="viewStart"
+                android:textColor="@color/textSecondary"
+                android:textSize="16sp" />
+        </ScrollView>
+
+        <!-- Optional spacer -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:paddingTop="16dp"
+            android:background="@android:color/transparent" />
+    </LinearLayout>
+
+    <!-- Overlay - should cover entire screen -->
+    <View
+        android:id="@+id/backgroundOverlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#80000000"
+        android:visibility="gone" />
+
+    <!-- Explanation View - should be above overlay -->
+    <ScrollView
+        android:id="@+id/explanationScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_margin="16dp"
+        android:visibility="gone"
+        android:layout_gravity="center"
+        android:elevation="8dp"
+        android:background="@android:color/white">
+
+        <TextView
+            android:id="@+id/explanationText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:textSize="16sp"
+            android:textColor="@color/textPrimary"
+            android:lineSpacingExtra="6dp"/>
+    </ScrollView>
+
+    <!-- Keep Action Bar As-Is -->
+    <LinearLayout
+        android:id="@+id/actionBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/action_bar_background"
+        android:elevation="8dp"
+        android:visibility="gone"
+        android:paddingVertical="8dp"
+        android:layout_gravity="bottom"
+        android:translationY="100dp"
+        android:gravity="center">
+
+        <!-- Button containers remain the same -->
+        <LinearLayout
+            android:id="@+id/markAsReadContainer"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/markReadIcon"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:paddingBottom="5dp"
+                android:src="@drawable/ic_marks_as_read"
+                app:tint="#FFFFFF"/>
+
+            <TextView
+                android:id="@+id/markReadText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mark Read"
+                android:textSize="10sp"
+                android:textColor="@color/textPrimary"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/addToFlashcardsContainer"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/addFlashcardIcon"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_addtoflashcard"
+                android:paddingBottom="5dp"
+                app:tint="#FFFFFF"/>
+
+            <TextView
+                android:id="@+id/addFlashcardText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add Flashcard"
+                android:textSize="10sp"
+                android:textColor="@color/textPrimary"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/viewExplanationContainer"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="8dp">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_explanation"
+                android:paddingBottom="5dp"
+                app:tint="@color/textPrimary"/>
+
+            <TextView
+                android:id="@+id/explanationTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Explanation"
+                android:textSize="10sp"
+                android:textColor="@color/textPrimary"/>
+        </LinearLayout>
+    </LinearLayout>
+    <!-- Action bar buttons remain unchanged -->
+    <!-- ... (your existing ImageViews/TextViews for mark as read, flashcard, etc.) -->
+
+    <!-- Paste your three LinearLayouts here unchanged -->
+</FrameLayout>

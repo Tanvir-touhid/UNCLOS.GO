@@ -1,0 +1,77 @@
+# ================================
+# Android Studio & Java Projects
+# ================================
+
+# --- Build directories ---
+**/build/
+**/out/
+bin/
+gen/
+
+# --- Gradle files ---
+.gradle/
+.gradlex/
+!gradle/wrapper/gradle-wrapper.jar
+local.properties
+
+# --- IDE files ---
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# --- Android generated binding classes ---
+**/*Binding.java
+**/databinding/
+
+# --- APKs and intermediate build files ---
+*.apk
+*.ap_
+*.dex
+*.class
+*.jar
+
+# --- Native libs ---
+*.so
+
+# --- Proguard & signing configs ---
+proguard/
+*.jks
+*.keystore
+*.key
+*.pem
+
+# --- Coverage and profiling files ---
+*.ec
+*.exec
+*.prof
+*.profm
+
+# --- Crashlytics / Firebase ---
+crashlytics-build.properties
+fabric.properties
+
+# --- Output metadata ---
+output-metadata.json
+
+# --- Annotation processors ---
+.annotationProcessor/
+*.apt_generated/
+
+# --- Logs and temporary files ---
+*.log
+*.zip
+*.tmp
+*.temp
+*.swp
+*~
+
+# --- OS-specific ---
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# --- Misc ---
+*.xml.zip
+.navigation/

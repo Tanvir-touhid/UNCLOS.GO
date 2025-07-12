@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="8dp"
+    android:layout_marginVertical="4dp"
+    app:cardElevation="2dp"
+    app:cardCornerRadius="4dp"
+    app:cardBackgroundColor="?attr/colorSurface"
+    android:background="@drawable/bg_gradient">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:gravity="center_vertical"
+        android:background="@drawable/card_border">
+
+        <!-- Article Icon -->
+        <ImageView
+            android:id="@+id/articleIcon"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginEnd="8dp"
+            android:contentDescription="@string/article_icon_desc" />
+
+        <!-- Vertical Divider -->
+        <View
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="8dp"
+            android:background="@android:color/darker_gray" />
+
+        <!-- Text Section - Modified to allow expansion -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/articleTitleTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sample Title"
+                android:textColor="@color/textSecondary"
+                android:textSize="16sp"
+                android:ellipsize="end"
+                android:lineSpacingExtra="4dp"/>
+        </LinearLayout>
+
+        <!-- Read Indicator -->
+        <ImageView
+            android:id="@+id/readIndicator"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_check"
+            app:tint="?attr/colorOnSurface" />
+
+        <!-- Arrow Icon -->
+        <ImageView
+            android:id="@+id/rightArrow"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/ic_arrow_right"
+            android:contentDescription="@string/arrow_icon_desc"
+            app:tint="?attr/colorOnSurface" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

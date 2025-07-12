@@ -1,0 +1,664 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/article_reading_background"
+    android:padding="16dp"
+    android:justificationMode="inter_word">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:justificationMode="inter_word"
+        android:orientation="vertical">
+
+        <!-- Header with App Icon -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginBottom="24dp">
+            
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Frequently Asked Questions"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="@color/textSecondary"/>
+        </LinearLayout>
+
+        <!-- General Questions Card -->
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="2dp"
+            app:strokeColor="@color/textSecondary"
+            app:strokeWidth="1dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <!-- Section Header -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical">
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:src="@drawable/ic_help"
+                        android:layout_marginEnd="8dp"
+                        app:tint="@color/textSecondary"
+                        android:contentDescription="Help icon"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="General Questions"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/textSecondary"/>
+                </LinearLayout>
+
+                <!-- Q1 -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="What is UnclosGo?"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="16dp"
+                    android:textColor="@color/Special_text"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="UNCLOS Go is a lightweight offline Android app that lets you explore all 320 articles of the United Nations Convention on the Law of the Sea (UNCLOS) in a clean and organized way. It includes a smart Spaced Repetition System (SRS) to help you learn and remember key articles more efficiently. Ideal for students, researchers, and professionals who want quick, easy access to maritime law anytime, anywhere."
+                    android:textSize="14sp"
+                    android:justificationMode="inter_word"
+                    android:layout_marginTop="4dp"
+                    android:textColor="@color/textSecondary"/>
+
+                <!-- Q2 -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="How do I get started?"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="16dp"
+                    android:textColor="@color/Special_text"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1. Open the app and explore the main dashboard\n2. Tap 'UNCLOS' to begin with articles\n3. Use the flashcards section to create and review study cards"
+                    android:textSize="14sp"
+                    android:layout_marginTop="4dp"
+                    android:justificationMode="inter_word"
+                    android:textColor="@color/textSecondary"/>
+
+                <!-- NEW Q3 -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Is there a dark mode?"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="16dp"
+                    android:textColor="@color/Special_text"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Yes! Go to Settings → Theme Settings → Enable Dark Mode for better nighttime reading."
+                    android:justificationMode="inter_word"
+                    android:textSize="14sp"
+                    android:layout_marginTop="4dp"
+                    android:textColor="@color/textSecondary"/>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- SRS Card (Expanded) -->
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="4dp"
+            app:strokeColor="@color/textSecondary"
+            app:strokeWidth="1dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical">
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:src="@drawable/ic_srs"
+                        android:layout_marginEnd="8dp"
+                        app:tint="@color/textSecondary"
+                        android:contentDescription="SRS icon"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Spaced Repetition System"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/textSecondary"/>
+                </LinearLayout>
+
+                <!-- NEW: SRS Basics -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Why use spaced repetition?"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="16dp"
+                    android:textColor="@color/Special_text"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Spaced repetition is scientifically proven to improve long-term retention by reviewing information at optimal intervals."
+                    android:textSize="14sp"
+                    android:justificationMode="inter_word"
+                    android:layout_marginTop="4dp"
+                    android:textColor="@color/textSecondary"/>
+
+                <!-- Algorithm Details -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="How does the algorithm work?"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="16dp"
+                    android:textColor="@color/Special_text"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Our modified SM-2 algorithm adjusts intervals based on your performance:\n\n• New cards: 10min → 1hr → 1day\n• Learning cards: Graduated intervals\n• Review cards: Exponential growth (1wk → 1mo)"
+                    android:textSize="14sp"
+                    android:layout_marginTop="4dp"
+                    android:justificationMode="inter_word"
+                    android:textColor="@color/textSecondary"/>
+
+                <!-- NEW: Retention Stats -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="What retention rate can I expect?"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="16dp"
+                    android:textColor="@color/Special_text"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:justificationMode="inter_word"
+                    android:text="With regular use:\n• 80-90% retention for reviewed material\n• 50-70% for new material after 1 month"
+                    android:textSize="14sp"
+                    android:layout_marginTop="4dp"
+                    android:textColor="@color/textSecondary"/>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Study Tips Card (Visual Improvements) -->
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="4dp"
+            app:strokeColor="@color/textSecondary"
+            app:strokeWidth="1dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical">
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:src="@drawable/ic_tips"
+                        android:layout_marginEnd="8dp"
+                        app:tint="@color/textSecondary"
+                        android:contentDescription="Tips icon"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Study Tips"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/textSecondary"/>
+                </LinearLayout>
+
+                <!-- NEW: Optimal Study Times -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="When is the best time to study?"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="16dp"
+                    android:textColor="@color/Special_text"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:justificationMode="inter_word"
+                    android:layout_height="wrap_content"
+                    android:text="Research shows:\n• Morning sessions (6-10AM) for new material\n• Evening reviews (6-9PM) for retention\n• Short sessions (25-30 mins) are most effective"
+                    android:textSize="14sp"
+                    android:layout_marginTop="4dp"
+                    android:textColor="@color/textSecondary"/>
+
+                <!-- Bullet Points with Icons -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Pro Tips:"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="16dp"
+                    android:textColor="@color/Special_text"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center_vertical">
+
+                    <ImageView
+                        android:layout_width="16dp"
+                        android:layout_height="16dp"
+                        android:src="@drawable/ic_bullet"
+                        android:layout_marginEnd="8dp"
+                        app:tint="@color/textSecondary"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Create atomic cards (one concept per card)"
+                        android:textSize="14sp"
+                        android:textColor="@color/textSecondary"/>
+                </LinearLayout>
+
+                <!-- Add more tips with the same structure as needed -->
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="4dp"
+            app:strokeColor="@color/textSecondary"
+            app:strokeWidth="1dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <!-- Section Header -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical">
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:src="@drawable/ic_technical"
+                        android:layout_marginEnd="8dp"
+                        app:tint="@color/textSecondary"
+                        android:contentDescription="Technical icon"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Technical Questions"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/textSecondary"/>
+                </LinearLayout>
+
+                <!-- Q1 -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Does the app work offline?"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="16dp"
+                    android:textColor="@color/Special_text"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Yes! UNCLOS Go is designed as a fully offline application. All articles, flashcards, and features work without an internet connection after the initial download."
+                    android:textSize="14sp"
+                    android:justificationMode="inter_word"
+                    android:layout_marginTop="4dp"
+                    android:textColor="@color/textSecondary"/>
+
+                <!-- Q2 -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="How do I backup my flashcards?"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="16dp"
+                    android:textColor="@color/Special_text"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Your flashcards are automatically saved in the app's local database."
+                    android:textSize="14sp"
+                    android:layout_marginTop="4dp"
+                    android:justificationMode="inter_word"
+                    android:textColor="@color/textSecondary"/>
+
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Legal Questions Card -->
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="4dp"
+            app:strokeColor="@color/textSecondary"
+            app:strokeWidth="1dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <!-- Section Header -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical">
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:src="@drawable/ic_legal"
+                        android:layout_marginEnd="8dp"
+                        app:tint="@color/textSecondary"
+                        android:contentDescription="Legal icon"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Legal Questions"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/textSecondary"/>
+                </LinearLayout>
+
+                <!-- Q1 -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Is this the official UNCLOS text?"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="16dp"
+                    android:textColor="@color/Special_text"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="The app contains the complete, authentic text of the United Nations Convention on the Law of the Sea as adopted in 1982, with the same article numbering and structure as the official document."
+                    android:textSize="14sp"
+                    android:justificationMode="inter_word"
+                    android:layout_marginTop="4dp"
+                    android:textColor="@color/textSecondary"/>
+
+                <!-- Q2 -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Can I cite this app in academic work?"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="16dp"
+                    android:textColor="@color/Special_text"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="For academic citations, we recommend referring to the official UNCLOS document. The app serves as a study aid and quick reference, but official publications should be used for formal citations."
+                    android:textSize="14sp"
+                    android:layout_marginTop="4dp"
+                    android:justificationMode="inter_word"
+                    android:textColor="@color/textSecondary"/>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Navigation Questions Card -->
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="4dp"
+            app:strokeColor="@color/textSecondary"
+            app:strokeWidth="1dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <!-- Section Header -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical">
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:src="@drawable/ic_navigation"
+                        android:layout_marginEnd="8dp"
+                        app:tint="@color/textSecondary"
+                        android:contentDescription="Navigation icon"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Navigation &amp; Features"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/textSecondary"/>
+                </LinearLayout>
+
+                <!-- Q1 -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="How do I search for specific articles?"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="16dp"
+                    android:textColor="@color/Special_text"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Use the search bar in the Read section. You can search by article number (e.g., '76') or keywords (e.g., 'territorial sea'). The Table of Contents also provides quick access to all parts and sections."
+                    android:textSize="14sp"
+                    android:justificationMode="inter_word"
+                    android:layout_marginTop="4dp"
+                    android:textColor="@color/textSecondary"/>
+
+                <!-- Q2 -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="What do the progress indicators mean?"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="16dp"
+                    android:textColor="@color/Special_text"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="• Blue dot: Article read\n• Checkmark: Article mastered\n• Percentage: Your overall progress\n• Flashcard indicators: New (N), Learning (L), Due (D)"
+                    android:textSize="14sp"
+                    android:layout_marginTop="4dp"
+                    android:justificationMode="inter_word"
+                    android:textColor="@color/textSecondary"/>
+
+                <!-- Q3 -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="How does the action bar work in articles?"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="16dp"
+                    android:textColor="@color/Special_text"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="4dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="The action bar appears automatically when you open an article and stays visible for 5 seconds. You can:"
+                        android:textSize="14sp"
+                        android:textColor="@color/textSecondary"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="8dp"
+                        android:gravity="center_vertical">
+
+                        <ImageView
+                            android:layout_width="16dp"
+                            android:layout_height="16dp"
+                            android:src="@drawable/ic_bullet"
+                            android:layout_marginEnd="8dp"
+                            app:tint="@color/textSecondary"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Tap anywhere to show/hide it"
+                            android:textSize="14sp"
+                            android:textColor="@color/textSecondary"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="4dp"
+                        android:gravity="center_vertical">
+
+                        <ImageView
+                            android:layout_width="16dp"
+                            android:layout_height="16dp"
+                            android:src="@drawable/ic_bullet"
+                            android:layout_marginEnd="8dp"
+                            app:tint="@color/textSecondary"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="It hides automatically when scrolling"
+                            android:textSize="14sp"
+                            android:textColor="@color/textSecondary"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="4dp"
+                        android:gravity="center_vertical">
+
+                        <ImageView
+                            android:layout_width="16dp"
+                            android:layout_height="16dp"
+                            android:src="@drawable/ic_bullet"
+                            android:layout_marginEnd="8dp"
+                            app:tint="@color/textSecondary"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Use its buttons to mark as read, add flashcards, or view explanations"
+                            android:textSize="14sp"
+                            android:textColor="@color/textSecondary"/>
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:src="@drawable/ic_action_bar"
+                        android:adjustViewBounds="true"
+                        android:contentDescription="Action bar demonstration"/>
+                </LinearLayout>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+    </LinearLayout>
+</ScrollView>

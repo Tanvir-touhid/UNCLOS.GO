@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/article_reading_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:padding="12dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- History of UNCLOS III -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="History of UNCLOS III"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/textSecondary"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"/>
+
+        <!-- Origins and Early Developments -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Origins and Early Developments"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/textSecondary"
+            android:paddingTop="8dp"/>
+
+        <!-- Initial Efforts -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Initial Efforts (Pre-20th Century)"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@color/textSecondary"
+            android:paddingTop="4dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   - Maritime law has ancient roots, with early principles like the \&quot;freedom of the seas\&quot; articulated in the 17th century by Dutch jurist Hugo Grotius."
+            android:textSize="14sp"
+            android:textColor="@color/textSecondary"
+            android:paddingLeft="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   - This principle maintained that the seas should be open to all nations and free from the control of any single state."
+            android:textSize="14sp"
+            android:textColor="@color/textSecondary"
+            android:paddingLeft="16dp"/>
+
+        <!-- UNCLOS I -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. First United Nations Conference on the Law of the Sea (UNCLOS I) -- 1958"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@color/textSecondary"
+            android:paddingTop="4dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   - Held in Geneva, Switzerland."
+            android:textSize="14sp"
+            android:textColor="@color/textSecondary"
+            android:paddingLeft="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   - Resulted in four conventions:"
+            android:textSize="14sp"
+            android:textColor="@color/textSecondary"
+            android:paddingLeft="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="     - Convention on the Territorial Sea and the Contiguous Zone"
+            android:textSize="14sp"
+            android:textColor="@color/textSecondary"
+            android:paddingLeft="32dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="     - Convention on the High Seas"
+            android:textSize="14sp"
+            android:textColor="@color/textSecondary"
+            android:paddingLeft="32dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="     - Convention on Fishing and Conservation of the Living Resources of the High Seas"
+            android:textSize="14sp"
+            android:textColor="@color/textSecondary"
+            android:paddingLeft="32dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="     - Convention on the Continental Shelf"
+            android:textSize="14sp"
+            android:textColor="@color/textSecondary"
+            android:paddingLeft="32dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   - However, this conference failed to establish a comprehensive framework for ocean governance."
+            android:textSize="14sp"
+            android:textColor="@color/textSecondary"
+            android:paddingLeft="16dp"/>
+
+        <!-- Continue with all other sections following the same pattern -->
+        <!-- UNCLOS II -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Second United Nations Conference on the Law of the Sea (UNCLOS II) -- 1960"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@color/textSecondary"
+            android:paddingTop="4dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   - Also held in Geneva."
+            android:textSize="14sp"
+            android:textColor="@color/textSecondary"
+            android:paddingLeft="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   - Aimed to resolve critical issues left unsettled by UNCLOS I, including the breadth of the territorial sea."
+            android:textSize="14sp"
+            android:textColor="@color/textSecondary"
+            android:paddingLeft="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   - Ended without reaching significant consensus."
+            android:textSize="14sp"
+            android:textColor="@color/textSecondary"
+            android:paddingLeft="16dp"/>
+
+        <!-- The Road to UNCLOS III -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The Road to UNCLOS III (1967-1973)"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/textSecondary"
+            android:paddingTop="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. Emergence of New Issues (1960s)"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@color/textSecondary"
+            android:paddingTop="4dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   - 	Technological advancements enabled deeper ocean exploration and resource extraction, creating conflicts over maritime boundaries."
+            android:textSize="14sp"
+            android:textColor="@color/textSecondary"
+            android:paddingLeft="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   - 	Developing nations, particularly in the Global South, sought a more equitable distribution of ocean resources."
+            android:textSize="14sp"
+            android:textColor="@color/textSecondary"
+            android:paddingLeft="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5. Maltese Proposal (1967)"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@color/textSecondary"
+            android:paddingTop="4dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   - 	In 1967, Arvid Pardo, the Maltese ambassador to the United Nations, delivered a historic speech to the UN General Assembly."
+            android:textSize="14sp"
+            android:textColor="@color/textSecondary"
+            android:paddingLeft="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text='   - 	Pardo called for the deep seabed and ocean floor beyond national jurisdiction to be declared the "common heritage of mankind."'
+            android:textSize="14sp"
+            android:textColor="@color/textSecondary"
+            android:paddingLeft="16dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   - 	This concept became a cornerstone of UNCLOS III"
+            android:textSize="14sp"
+            android:textColor="@color/textSecondary"
+            android:paddingLeft="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="6. General Assembly Resolution 2750 (1970"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@color/textSecondary"
+            android:paddingTop="4dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   - 	The UN General Assembly formally established the preparatory process for UNCLOS III"
+            android:textSize="14sp"
+            android:textColor="@color/textSecondary"
+            android:paddingLeft="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   - 	This included creating the Seabed Committee to draft a comprehensive treaty."
+            android:textSize="14sp"
+            android:textColor="@color/textSecondary"
+            android:paddingLeft="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="UNCLOS III (1973-1982)"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/textSecondary"
+            android:paddingTop="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="7. Conference Begins (1973)"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@color/textSecondary"
+            android:paddingTop="4dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   - 	The third conference officially opened in New York in 1973."
+            android:textSize="14sp"
+            android:textColor="@color/textSecondary"
+            android:paddingLeft="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   - 	Unlike its predecessors, it sought to address all aspects of maritime law in a single, comprehensive treaty."
+            android:textSize="14sp"
+            android:textColor="@color/textSecondary"
+            android:paddingLeft="16dp"/>
+
+        <!-- Key Negotiation Blocks -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="8. Key Negotiation Blocks"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@color/textSecondary"
+            android:paddingTop="4dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   - The conference was characterized by intense negotiations among various interest groups:"
+            android:textSize="14sp"
+            android:textColor="@color/textSecondary"
+            android:paddingLeft="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="     • Developed vs. Developing Nations: Resource sharing and technology transfer."
+            android:textSize="14sp"
+            android:textColor="@color/textSecondary"
+            android:paddingLeft="32dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="     • Coastal vs. Landlocked States: Access to marine resources and transit rights."
+            android:textSize="14sp"
+            android:textColor="@color/textSecondary"
+            android:paddingLeft="32dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="     • Major Maritime Powers vs. Smaller Nations: Navigation rights and military access."
+            android:textSize="14sp"
+            android:textColor="@color/textSecondary"
+            android:paddingLeft="32dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="9. Innovative Consensus Mechanism"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@color/textSecondary"
+            android:paddingTop="4dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   - 	The conference adopted a consensus-based approach, avoiding majority voting to reduce polarization."
+            android:textSize="14sp"
+            android:textColor="@color/textSecondary"
+            android:paddingLeft="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   - 	This allowed for broader acceptance of the final treaty."
+            android:textSize="14sp"
+            android:textColor="@color/textSecondary"
+            android:paddingLeft="16dp"/>
+
+        <!-- Adoption and Signature (1982) -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Adoption and Signature (1982)"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/textSecondary"
+            android:paddingTop="8dp"/>
+
+        <!-- Final Draft and Adoption -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="10. Final Draft and Adoption"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@color/textSecondary"
+            android:paddingTop="4dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   -  After nine years of negotiation, the final text of the United Nations Convention on the Law of the Sea (UNCLOS) was adopted on April 30, 1982."
+            android:textSize="14sp"
+            android:textColor="@color/textSecondary"
+            android:paddingLeft="16dp"/>
+
+        <!-- Montego Bay Signing -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="11. Montego Bay Signing (December 10, 1982)"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@color/textSecondary"
+            android:paddingTop="4dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   -  The convention was opened for signature in Montego Bay, Jamaica, on December 10, 1982."
+            android:textSize="14sp"
+            android:textColor="@color/textSecondary"
+            android:paddingLeft="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   -  It was signed by 119 countries, establishing the legal framework for all oceanic and maritime activities."
+            android:textSize="14sp"
+            android:textColor="@color/textSecondary"
+            android:paddingLeft="16dp"/>
+
+        <!-- Entry into Force -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="12. Entry into Force (1994)"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@color/textSecondary"
+            android:paddingTop="4dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   -  UNCLOS officially entered into force on November 16, 1994, one year after the 60th ratification."
+            android:textSize="14sp"
+            android:textColor="@color/textSecondary"
+            android:paddingLeft="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   -  The convention now has 168 parties, including most major maritime powers, although the United States remains a notable non-party."
+            android:textSize="14sp"
+            android:textColor="@color/textSecondary"
+            android:paddingLeft="16dp"/>
+
+        <!-- Continue with all remaining sections in the same format -->
+        <!-- ... -->
+
+        <!-- Impact and Legacy -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Impact and Legacy"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/textSecondary"
+            android:paddingTop="8dp"/>
+
+        <!-- Institutional Structures -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="13. Institutional Structures"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@color/textSecondary"
+            android:paddingTop="4dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   - Created key institutions, including the International Seabed Authority (ISA) and the International Tribunal for the Law of the Sea (ITLOS)."
+            android:textSize="14sp"
+            android:textColor="@color/textSecondary"
+            android:paddingLeft="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   - Established the Exclusive Economic Zone (EEZ), extending coastal state rights up to 200 nautical miles."
+            android:textSize="14sp"
+            android:textColor="@color/textSecondary"
+            android:paddingLeft="16dp"/>
+
+        <!-- Current Challenges -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="14. Current Challenges and Ongoing Debates"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@color/textSecondary"
+            android:paddingTop="4dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   - Issues like deep-sea mining, environmental protection, and Arctic sovereignty continue to test the convention&apos;s resilience."
+            android:textSize="14sp"
+            android:textColor="@color/textSecondary"
+            android:paddingLeft="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   - Ongoing efforts to develop UNCLOS IV or an updated framework for Biodiversity Beyond National Jurisdiction (BBNJ) highlight the dynamic nature of ocean governance."
+            android:textSize="14sp"
+            android:textColor="@color/textSecondary"
+            android:paddingLeft="16dp"/>
+
+    </LinearLayout>
+</ScrollView>

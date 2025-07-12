@@ -1,0 +1,3046 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/article_reading_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:orientation="vertical">
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Table of Contents- UNCLOS"
+            android:textSize="18sp"
+            android:textStyle="bold"
+             
+            android:paddingTop="8dp"
+            android:paddingBottom="16dp"/>
+
+    <!-- Part I -->
+        <TextView 
+        android:textColor="@color/textSecondary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="✓ PART I. INTRODUCTION"
+        android:textSize="16sp"
+        android:textStyle="bold"
+         />
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="   - Article 1. Use of terms and scope"
+        android:textSize="14sp"
+         
+        android:paddingLeft="16dp"/>
+
+            <!-- Part II -->
+        <TextView 
+        android:textColor="@color/textSecondary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="✓ PART II. TERRITORIAL SEA AND CONTIGUOUS ZONE"
+        android:textSize="16sp"
+        android:textStyle="bold"
+         
+        android:paddingTop="8dp"/>
+
+            <!-- Section 1 -->
+        <TextView 
+        android:textColor="@color/textSecondary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="● SECTION 1. GENERAL PROVISIONS"
+        android:textSize="14sp"
+        android:textStyle="bold"
+         
+        android:paddingLeft="16dp"
+        android:paddingTop="8dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="   - Article 2. Legal status of the territorial sea, of the air space over the territorial sea and of its bed and subsoil"
+        android:textSize="14sp"
+         
+        android:paddingLeft="32dp"/>
+
+            <!-- Section 2 -->
+        <TextView 
+        android:textColor="@color/textSecondary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="● SECTION 2. LIMITS OF THE TERRITORIAL SEA"
+        android:textSize="14sp"
+        android:textStyle="bold"
+         
+        android:paddingLeft="16dp"
+        android:paddingTop="8dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="   - Article 3. Breadth of the territorial sea"
+        android:textSize="14sp"
+         
+        android:paddingLeft="32dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="   - Article 4. Outer limit of the territorial sea"
+        android:textSize="14sp"
+         
+        android:paddingLeft="32dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="   - Article 5. Normal baseline"
+        android:textSize="14sp"
+         
+        android:paddingLeft="32dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="   - Article 6. Reefs"
+        android:textSize="14sp"
+         
+        android:paddingLeft="32dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="   - Article 7. Straight baselines"
+        android:textSize="14sp"
+         
+        android:paddingLeft="32dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="   - Article 8. Internal waters"
+        android:textSize="14sp"
+         
+        android:paddingLeft="32dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="   - Article 9. Mouths of rivers"
+        android:textSize="14sp"
+         
+        android:paddingLeft="32dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="   - Article 10. Bays"
+        android:textSize="14sp"
+        android:paddingLeft="32dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="   - Article 11. Ports"
+        android:textSize="14sp"
+        android:paddingLeft="32dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="   - Article 12. Roadsteads"
+        android:textSize="14sp"
+        android:paddingLeft="32dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="   - Article 13. Low-tide elevations"
+        android:textSize="14sp"
+        android:paddingLeft="32dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="   - Article 14. Combination of methods for determining baselines"
+        android:textSize="14sp"
+        android:paddingLeft="32dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="   - Article 15. Delimitation of the territorial sea between States with opposite or adjacent coasts"
+        android:textSize="14sp"
+        android:paddingLeft="32dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="   - Article 16. Charts and lists of geographical coordinates"
+        android:textSize="14sp"
+        android:paddingLeft="32dp"/>
+
+            <!-- Section 3 -->
+        <TextView 
+        android:textColor="@color/textSecondary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="● SECTION 3. INNOCENT PASSAGE IN THE TERRITORIAL SEA"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:paddingLeft="16dp"
+        android:paddingTop="8dp"/>
+
+            <!-- Subsection A -->
+        <TextView 
+        android:textColor="@color/textSecondary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="   - SUBSECTION A. RULES APPLICABLE TO ALL SHIPS"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:paddingLeft="32dp"
+        android:paddingTop="8dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="     - Article 17. Right of innocent passage"
+        android:textSize="14sp"
+        android:paddingLeft="48dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="     - Article 18. Meaning of passage"
+        android:textSize="14sp"
+        android:paddingLeft="48dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="     - Article 19. Meaning of innocent passage"
+        android:textSize="14sp"
+        android:paddingLeft="48dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="     - Article 20. Submarines and other underwater vehicles"
+        android:textSize="14sp"
+        android:paddingLeft="48dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="     - Article 21. Laws and regulations of the coastal State relating to innocent passage"
+        android:textSize="14sp"
+        android:paddingLeft="48dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="     - Article 22. Sea lanes and traffic separation schemes in the territorial sea"
+        android:textSize="14sp"
+        android:paddingLeft="48dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="     - Article 23. Foreign nuclear-powered ships and ships carrying nuclear or other inherently dangerous or noxious substances"
+        android:textSize="14sp"
+        android:paddingLeft="48dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="     - Article 24. Duties of the coastal State"
+        android:textSize="14sp"
+        android:paddingLeft="48dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="     - Article 25. Rights of protection of the coastal State"
+        android:textSize="14sp"
+        android:paddingLeft="48dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="     - Article 26. Charges which may be levied upon foreign ships"
+        android:textSize="14sp"
+        android:paddingLeft="48dp"/>
+
+        <!-- SUBSECTION B -->
+        <TextView 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SUBSECTION B. RULES APPLICABLE TO MERCHANT SHIPS AND GOVERNMENT SHIPS OPERATED FOR COMMERCIAL PURPOSES"
+            android:textStyle="bold"
+                    android:textColor="@color/textSecondary"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="  • Article 27. Criminal jurisdiction on board a foreign ship"
+                    android:textColor="@color/textSecondary"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+                    android:textColor="@color/textSecondary"
+            android:text="  • Article 28. Civil jurisdiction in relation to foreign ships"
+            android:layout_marginLeft="16dp"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- SUBSECTION C -->
+        <TextView 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SUBSECTION C. RULES APPLICABLE TO WARSHIPS AND OTHER GOVERNMENT SHIPS OPERATED FOR NON-COMMERCIAL PURPOSES"
+            android:textStyle="bold"
+                    android:textColor="@color/textSecondary"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="  • Article 29. Definition of warships"
+                    android:textColor="@color/textSecondary"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+                    android:textColor="@color/textSecondary"
+            android:text="  • Article 30. Non-compliance by warships with the laws and regulations of the coastal State"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+                    android:textColor="@color/textSecondary"
+            android:text="  • Article 31. Responsibility of the flag State for damage caused by a warship or other government ship operated for non-commercial purposes"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+                    android:textColor="@color/textSecondary"
+            android:text="  • Article 32. Immunities of warships and other government ships operated for non-commercial purposes"
+            android:layout_marginLeft="16dp"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- SECTION 4 -->
+        <TextView 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+                    android:textColor="@color/textSecondary"
+            android:text="● SECTION 4. CONTIGUOUS ZONE"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+                    android:textColor="@color/textSecondary"
+            android:text="  • Article 33. Contiguous zone"
+            android:layout_marginLeft="16dp"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- PART III -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="✓ PART III. STRAITS USED FOR INTERNATIONAL NAVIGATION"
+                    android:textColor="@color/textSecondary"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- SECTION 1 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="● SECTION 1. GENERAL PROVISIONS"
+                    android:textColor="@color/textSecondary"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+                    android:textColor="@color/textSecondary"
+            android:text="  • Article 34. Legal status of waters forming straits used for international navigation"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+                    android:textColor="@color/textSecondary"
+            android:text="  • Article 35. Scope of this Part"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+                    android:textColor="@color/textSecondary"
+            android:text="  • Article 36. High seas routes or routes through exclusive economic zones through straits used for international navigation"
+            android:layout_marginLeft="16dp"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- SECTION 2 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="● SECTION 2. TRANSIT PASSAGE"
+                    android:textColor="@color/textSecondary"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="  • Article 37. Scope of this section"
+                    android:textColor="@color/textSecondary"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+                    android:textColor="@color/textSecondary"
+            android:text="  • Article 38. Right of transit passage"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+                    android:textColor="@color/textSecondary"
+            android:text="     ◦ Article 39. Duties of ships and aircraft during transit passage"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+                    android:textColor="@color/textSecondary"
+            android:text="     ◦ Article 40. Research and survey activities"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+                    android:textColor="@color/textSecondary"
+            android:text="     ◦ Article 41. Sea lanes and traffic separation schemes in straits used for international navigation"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+                    android:textColor="@color/textSecondary"
+            android:text="     ◦ Article 42. Laws and regulations of States bordering straits relating to transit passage"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+                    android:textColor="@color/textSecondary"
+            android:layout_height="wrap_content"
+            android:text="     ◦ Article 43. Navigational and safety aids and other improvements and the prevention, reduction and control of pollution"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+                    android:textColor="@color/textSecondary"
+            android:text="     ◦ Article 44. Duties of States bordering straits"
+            android:textSize="16sp"/>
+
+        <!-- SECTION 3 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="● SECTION 3. INNOCENT PASSAGE"
+                    android:textColor="@color/textSecondary"
+            android:textStyle="bold"
+
+            android:layout_marginBottom="8dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+                    android:textColor="@color/textSecondary"
+            android:text="  • Article 45. Innocent passage"
+            android:layout_marginLeft="16dp"/>
+
+        <!-- PART IV -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+                    android:textColor="@color/textSecondary"
+            android:text="✓ PART IV. ARCHIPELAGIC STATES"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+                    android:textColor="@color/textSecondary"
+            android:text="  • Article 46. Use of terms"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+                    android:textColor="@color/textSecondary"
+            android:text="  • Article 47. Archipelagic baselines"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="  • Article 48. Measurement of the breadth of the territorial sea, the contiguous zone, the exclusive economic zone and the continental shelf"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="  • Article 49. Legal status of archipelagic waters, of the air space over archipelagic waters and of their bed and subsoil"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="  • Article 50. Delimitation of internal waters"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="  • Article 51. Existing agreements, traditional fishing rights and existing submarine cables"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="  • Article 52. Right of innocent passage"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="  • Article 53. Right of archipelagic sea lanes passage"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="  • Article 54. Duties of ships and aircraft during their passage, research and survey activities, duties of the archipelagic State and laws and regulations of the archipelagic State relating to archipelagic sea lanes passage"
+            android:layout_marginLeft="16dp"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- PART V -->
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="✓ PART V. EXCLUSIVE ECONOMIC ZONE"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp"/>
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Article 55. Specific legal regime of the exclusive economic zone"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Article 56. Rights, jurisdiction and duties of the coastal State in the exclusive economic zone"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Article 57. Breadth of the exclusive economic zone"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Article 58. Rights and duties of other States in the exclusive economic zone"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Article 59. Basis for the resolution of conflicts regarding the attribution of rights and jurisdiction in the exclusive economic zone"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Article 60. Artificial islands, installations and structures in the exclusive economic zone"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Article 61. Conservation of the living resources"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Article 62. Utilization of the living resources"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Article 63. Stocks occurring within the exclusive economic zones of two or more coastal States or both within the exclusive economic zone and in an area beyond and adjacent to it"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Article 64. Highly migratory species"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Article 65. Marine mammals"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Article 66. Anadromous stocks"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Article 67. Catadromous species"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Article 68. Sedentary species"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Article 69. Right of land-locked States"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Article 70. Right of geographically disadvantaged States"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Article 71. Non-applicability of articles 69 and 70"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Article 72. Restrictions on transfer of rights"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Article 73. Enforcement of laws and regulations of the coastal State"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Article 74. Delimitation of the exclusive economic zone between States with opposite or adjacent coasts"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Article 75. Charts and lists of geographical coordinates"
+            android:layout_marginLeft="16dp"/>
+
+        <!-- PART VI -->
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="✓ PART VI. CONTINENTAL SHELF"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 76. Definition of the continental shelf"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 77. Rights of the coastal State over the continental shelf"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 78. Legal status of the superjacent waters and air space and the rights and freedoms of other States"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 79. Submarine cables and pipelines on the continental shelf"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 80. Artificial islands, installations and structures on the continental shelf"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 81. Drilling on the continental shelf"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 82. Payments and contributions with respect to the exploitation of the continental shelf beyond 200 nautical miles"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 83. Delimitation of the continental shelf between States with opposite or adjacent coasts"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 84. Charts and lists of geographical coordinates"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 85. Tunnelling"
+            android:layout_marginLeft="16dp"/>
+
+        <!-- PART VII Header -->
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="✓ PART VII. HIGH SEAS"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- SECTION 1 Header -->
+        <!-- SECTION 1 -->
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="● SECTION 1. GENERAL PROVISIONS"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- SECTION 1 Articles -->
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Article 86. Application of the provisions of this Part"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Article 87. Freedom of the high seas"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Article 88. Reservation of the high seas for peaceful purposes"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Article 89. Invalidity of claims of sovereignty over the high seas"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Article 90. Right of navigation"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Article 91. Nationality of ships"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Article 92. Status of ships"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Article 93. Ships flying the flag of the United Nations, its specialized agencies and the International Atomic Energy Agency"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Article 94. Duties of the flag State"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Article 95. Immunity of warships on the high seas"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Article 96. Immunity of ships used only on government non-commercial service"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Article 97. Penal jurisdiction in matters of collision or any other incident of navigation"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Article 98. Duty to render assistance"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Article 99. Prohibition of the transport of slaves"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Article 100. Duty to cooperate in the repression of piracy"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Article 101. Definition of piracy"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Article 102. Piracy by a warship, government ship or government aircraft whose crew has mutinied"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Article 103. Definition of a pirate ship or aircraft"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Article 104. Retention or loss of the nationality of a pirate ship or aircraft"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Article 105. Seizure of a pirate ship or aircraft"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Article 106. Liability for seizure without adequate grounds"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Article 107. Ships and aircraft which are entitled to seize on account of piracy"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Article 108. Illegal traffic in narcotic drugs or psychotropic substances"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Article 109. Unauthorized broadcasting from the high seas"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Article 110. Right of visit"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Article 111. Right of hot pursuit"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Article 112. Right to lay submarine cables and pipelines"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Article 113. Breaking or injury of a submarine cable or pipeline"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Article 114. Breaking or injury by owners of a submarine cable or pipeline of another submarine cable or pipeline"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Article 115. Indemnity for loss incurred in avoiding injury to a submarine cable or pipeline"
+            android:layout_marginLeft="16dp"/>
+
+        <!-- SECTION 2 Header -->
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="● SECTION 2. CONSERVATION AND MANAGEMENT OF THE LIVING RESOURCES OF THE HIGH SEAS"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- SECTION 2 Articles -->
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Article 116. Right to fish on the high seas"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Article 117. Duty of States to adopt with respect to their nationals measures for the conservation of the living resources of the high seas"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Article 118. Cooperation of States in the conservation and management of living resources"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Article 119. Conservation of the living resources of the high seas"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Article 120. Marine mammals"
+            android:layout_marginLeft="16dp"/>
+
+        <!-- Part VIII -->
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="✓ PART VIII. REGIME OF ISLANDS"
+            android:textSize="16sp"
+            android:textStyle="bold"
+             
+            android:paddingTop="8dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 121. Regime of islands"
+            android:layout_marginLeft="16dp"/>
+
+        <!-- Part IX -->
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="✓ PART IX. ENCLOSED OR SEMI-ENCLOSED SEAS"
+            android:textSize="16sp"
+            android:textStyle="bold"
+             
+            android:paddingTop="8dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 122. Definition"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 123. Cooperation of States bordering enclosed or semi-enclosed seas"
+            android:layout_marginLeft="16dp"/>
+
+        <!-- Part X -->
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="✓ PART X. RIGHT OF ACCESS OF LAND-LOCKED STATES TO AND FROM THE SEA AND FREEDOM OF TRANSIT"
+            android:textSize="16sp"
+            android:textStyle="bold"
+             
+            android:paddingTop="8dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 124. Use of terms"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 125. Right of access to and from the sea and freedom of transit"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 126. Exclusion of application of the most-favoured-nation clause"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 127. Customs duties, taxes and other charges"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 128. Free zones and other customs facilities"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 129. Cooperation in the construction and improvement of means of transport"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 130. Measures to avoid or eliminate delays or other difficulties of a technical nature in traffic in transit"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 131. Equal treatment in maritime ports"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 132. Grant of greater transit facilities"
+            android:layout_marginLeft="16dp"/>
+
+        <!-- Part XI -->
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="✓ PART XI. THE AREA"
+            android:textSize="16sp"
+            android:textStyle="bold"
+             
+            android:paddingTop="8dp"/>
+
+        <!-- Section 1 -->
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="◉ SECTION 1. GENERAL PROVISIONS"
+            android:textSize="14sp"
+            android:textStyle="bold"
+             
+            android:paddingLeft="16dp"
+            android:paddingTop="8dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 133. Use of terms"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 134. Scope of this Part"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 135. Legal status of the superjacent waters and air space"
+            android:layout_marginLeft="16dp"/>
+
+        <!-- Section 2 -->
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="◉ SECTION 2. PRINCIPLES GOVERNING THE AREA"
+            android:textSize="14sp"
+            android:textStyle="bold"
+             
+            android:paddingLeft="16dp"
+            android:paddingTop="8dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 136. Common heritage of mankind"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 137. Legal status of the Area and its resources"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 138. General conduct of States in relation to the Area"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 139. Responsibility to ensure compliance and liability for damage"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 140. Benefit of mankind"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 141. Use of the Area exclusively for peaceful purposes"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 142. Rights and legitimate interests of coastal States"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 143. Marine scientific research"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 144. Transfer of technology"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 145. Protection of the marine environment"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 146. Protection of human life"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 147. Accommodation of activities in the Area and in the marine environment"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 148. Participation of developing States in activities in the Area"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 149. Archaeological and historical objects"
+            android:layout_marginLeft="16dp"/>
+
+        <!-- Section 3 -->
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="◉ SECTION 3. DEVELOPMENT OF RESOURCES OF THE AREA"
+            android:textSize="14sp"
+            android:textStyle="bold"
+             
+            android:paddingLeft="16dp"
+            android:paddingTop="8dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 150. Policies relating to activities in the Area"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 151. Production policies"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 152. Exercise of powers and functions by the Authority"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 153. System of exploration and exploitation"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 154. Periodic review"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 155. The Review Conference"
+            android:layout_marginLeft="16dp"/>
+
+        <!-- Section 4 -->
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="◉ SECTION 4. THE AUTHORITY"
+            android:textSize="14sp"
+            android:textStyle="bold"
+             
+            android:paddingLeft="16dp"
+            android:paddingTop="8dp"/>
+
+        <!-- Subsection A -->
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="⁃ SUBSECTION A. GENERAL PROVISIONS"
+            android:textSize="14sp"
+            android:textStyle="bold"
+             
+            android:paddingLeft="32dp"
+            android:paddingTop="8dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 156. Establishment of the Authority"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 157. Nature and fundamental principles of the Authority"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 158. Organs of the Authority"
+            android:layout_marginLeft="16dp"/>
+
+        <!-- Subsection B -->
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="⁃ SUBSECTION B. THE ASSEMBLY"
+            android:textSize="14sp"
+            android:textStyle="bold"
+             
+            android:paddingLeft="32dp"
+            android:paddingTop="8dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 159. Composition, procedure and voting"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 160. Powers and functions"
+            android:layout_marginLeft="16dp"/>
+
+        <!-- Subsection C -->
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="⁃ SUBSECTION C. THE COUNCIL"
+            android:textSize="14sp"
+            android:textStyle="bold"
+             
+            android:paddingLeft="32dp"
+            android:paddingTop="8dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 161. Composition, procedure and voting"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 162. Powers and functions"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 163. Organs of the Council"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 164. The Economic Planning Commission"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 165. The Legal and Technical Commission"
+            android:layout_marginLeft="16dp"/>
+
+        <!-- Subsection D -->
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="⁃ SUBSECTION D. THE SECRETARIAT"
+            android:textSize="14sp"
+            android:textStyle="bold"
+             
+            android:paddingLeft="32dp"
+            android:paddingTop="8dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 166. The Secretariat"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 167. The staff of the Authority"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 168. International character of the Secretariat"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 169. Consultation and cooperation with international and non-governmental organizations"
+            android:layout_marginLeft="16dp"/>
+
+        <!-- Subsection E -->
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="⁃ SUBSECTION E. THE ENTERPRISE"
+            android:textSize="14sp"
+            android:textStyle="bold"
+             
+            android:paddingLeft="32dp"
+            android:paddingTop="8dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 170. The Enterprise"
+            android:layout_marginLeft="16dp"/>
+
+        <!-- Subsection F -->
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="⁃ SUBSECTION F. FINANCIAL ARRANGEMENTS OF THE AUTHORITY"
+            android:textSize="14sp"
+            android:textStyle="bold"
+             
+            android:paddingLeft="32dp"
+            android:paddingTop="8dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 171. Funds of the Authority"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 172. Annual budget of the Authority"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 173. Expenses of the Authority"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 174. Borrowing power of the Authority"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 175. Annual audit"
+            android:layout_marginLeft="16dp"/>
+
+        <!-- Subsection G -->
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="⁃ SUBSECTION G. LEGAL STATUS, PRIVILEGES AND IMMUNITIES"
+            android:textSize="14sp"
+            android:textStyle="bold"
+             
+            android:paddingLeft="32dp"
+            android:paddingTop="8dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 176. Legal status"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 177. Privileges and immunities"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 178. Immunity from legal process"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 179. Immunity from search and any form of seizure"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 180. Exemption from restrictions, regulations, controls and moratoria"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 181. Archives and official communications of the Authority"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 182. Privileges and immunities of certain persons connected with the Authority"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 183. Exemption from taxes and customs duties"
+            android:layout_marginLeft="16dp"/>
+
+        <!-- Subsection H -->
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="⁃ SUBSECTION H. SUSPENSION OF THE EXERCISE OF RIGHTS AND PRIVILEGES OF MEMBERS"
+            android:textSize="14sp"
+            android:textStyle="bold"
+             
+            android:paddingLeft="32dp"
+            android:paddingTop="8dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 184. Suspension of the exercise of voting rights"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 185. Suspension of exercise of rights and privileges of membership"
+            android:layout_marginLeft="16dp"/>
+        <!-- Section 5 -->
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="◉ SECTION 5. SETTLEMENT OF DISPUTES AND ADVISORY OPINIONS"
+            android:textSize="14sp"
+            android:textStyle="bold"
+             
+            android:paddingLeft="16dp"
+            android:paddingTop="8dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 186. Seabed Disputes Chamber of the International Tribunal for the Law of the Sea"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 187. Jurisdiction of the Seabed Disputes Chamber"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 188. Submission of disputes to a special chamber of the International Tribunal for the Law of the Sea or an ad hoc chamber of the Seabed Disputes Chamber or to binding commercial arbitration"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 189. Limitation on jurisdiction with regard to decisions of the Authority"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 190. Participation and appearance of sponsoring States Parties in proceedings"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 191. Advisory opinions"
+            android:layout_marginLeft="16dp"/>
+
+        <!-- Part XII -->
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="✓ PART XII. PROTECTION AND PRESERVATION OF THE MARINE ENVIRONMENT"
+            android:textSize="16sp"
+            android:textStyle="bold"
+             
+            android:paddingTop="8dp"/>
+
+        <!-- Section 1 -->
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="◉ SECTION 1. GENERAL PROVISIONS"
+            android:textSize="14sp"
+            android:textStyle="bold"
+             
+            android:paddingLeft="16dp"
+            android:paddingTop="8dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 192. General obligation"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 193. Sovereign right of States to exploit their natural resources"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 194. Measures to prevent, reduce and control pollution of the marine environment"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 195. Duty not to transfer damage or hazards or transform one type of pollution into another"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 196. Use of technologies or introduction of alien or new species"
+            android:layout_marginLeft="16dp"/>
+
+        <!-- Section 2 -->
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="◉ SECTION 2. GLOBAL AND REGIONAL COOPERATION"
+            android:textSize="14sp"
+            android:textStyle="bold"
+             
+            android:paddingLeft="16dp"
+            android:paddingTop="8dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 197. Cooperation on a global or regional basis"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 198. Notification of imminent or actual damage"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 199. Contingency plans against pollution"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 200. Studies, research programmes and exchange of information and data"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 201. Scientific criteria for regulations"
+            android:layout_marginLeft="16dp"/>
+
+        <!-- Section 3 -->
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="◉ SECTION 3. TECHNICAL ASSISTANCE"
+            android:textSize="14sp"
+            android:textStyle="bold"
+             
+            android:paddingLeft="16dp"
+            android:paddingTop="8dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 202. Scientific and technical assistance to developing States"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 203. Preferential treatment for developing States"
+            android:layout_marginLeft="16dp"/>
+
+        <!-- Section 4 -->
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="◉ SECTION 4. MONITORING AND ENVIRONMENTAL ASSESSMENT"
+            android:textSize="14sp"
+            android:textStyle="bold"
+             
+            android:paddingLeft="16dp"
+            android:paddingTop="8dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 204. Monitoring of the risks or effects of pollution"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 205. Publication of reports"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 206. Assessment of potential effects of activities"
+            android:layout_marginLeft="16dp"/>
+        <!-- Section 5 -->
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="◉ SECTION 5. INTERNATIONAL RULES AND NATIONAL LEGISLATION TO PREVENT, REDUCE AND CONTROL POLLUTION OF THE MARINE ENVIRONMENT"
+            android:textSize="14sp"
+            android:textStyle="bold"
+             
+            android:paddingLeft="16dp"
+            android:paddingTop="8dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 207. Pollution from land-based sources"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 208. Pollution from seabed activities subject to national jurisdiction"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 209. Pollution from activities in the Area"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 210. Pollution by dumping"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 211. Pollution from vessels"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 212. Pollution from or through the atmosphere"
+            android:layout_marginLeft="16dp"/>
+
+        <!-- Section 6 -->
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="◉ SECTION 6. ENFORCEMENT"
+            android:textSize="14sp"
+            android:textStyle="bold"
+             
+            android:paddingLeft="16dp"
+            android:paddingTop="8dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 213. Enforcement with respect to pollution from land-based sources"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 214. Enforcement with respect to pollution from seabed activities"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 215. Enforcement with respect to pollution from activities in the Area"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 216. Enforcement with respect to pollution by dumping"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 217. Enforcement by flag States"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 218. Enforcement by port States"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 219. Measures relating to seaworthiness of vessels to avoid pollution"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 220. Enforcement by coastal States"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 221. Measures to avoid pollution arising from maritime casualties"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 222. Enforcement with respect to pollution from or through the atmosphere"
+            android:layout_marginLeft="16dp"/>
+
+        <!-- Section 7 -->
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="◉ SECTION 7. SAFEGUARDS"
+            android:textSize="14sp"
+            android:textStyle="bold"
+             
+            android:paddingLeft="16dp"
+            android:paddingTop="8dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 223. Measures to facilitate proceedings"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 224. Exercise of powers of enforcement"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 225. Duty to avoid adverse consequences in the exercise of the powers of enforcement"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 226. Investigation of foreign vessels"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 227. Non-discrimination with respect to foreign vessels"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 228. Suspension and restrictions on institution of proceedings"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 229. Institution of civil proceedings"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 230. Monetary penalties and the observance of recognized rights of the accused"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 231. Notification to the flag State and other States concerned"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 232. Liability of States arising from enforcement measures"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 233. Safeguards with respect to straits used for international navigation"
+            android:layout_marginLeft="16dp"/>
+
+        <!-- Section 8 -->
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="◉ SECTION 8. ICE-COVERED AREAS"
+            android:textSize="14sp"
+            android:textStyle="bold"
+             
+            android:paddingLeft="16dp"
+            android:paddingTop="8dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 234. Ice-covered areas"
+            android:layout_marginLeft="16dp"/>
+
+        <!-- Section 9 -->
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="◉ SECTION 9. RESPONSIBILITY AND LIABILITY"
+            android:textSize="14sp"
+            android:textStyle="bold"
+             
+            android:paddingLeft="16dp"
+            android:paddingTop="8dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 235. Responsibility and liability"
+            android:layout_marginLeft="16dp"/>
+
+        <!-- Section 10 -->
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="◉ SECTION 10. SOVEREIGN IMMUNITY"
+            android:textSize="14sp"
+            android:textStyle="bold"
+             
+            android:paddingLeft="16dp"
+            android:paddingTop="8dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 236. Sovereign immunity"
+            android:layout_marginLeft="16dp"/>
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="◉ SECTION 11. OBLIGATIONS UNDER OTHER CONVENTIONS ON THE PROTECTION AND PRESERVATION OF THE MARINE ENVIRONMENT"
+            android:textSize="14sp"
+            android:textStyle="bold"
+             
+            android:paddingLeft="16dp"
+            android:paddingTop="8dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 237. Obligations under other conventions on the protection and preservation of the marine environment"
+            android:layout_marginLeft="16dp"/>
+
+        <!-- Part XIII -->
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="✓ PART XIII. MARINE SCIENTIFIC RESEARCH"
+            android:textSize="14sp"
+            android:textStyle="bold"
+             
+            android:paddingLeft="16dp"
+            android:paddingTop="8dp"/>
+
+        <!-- Section 1 -->
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="◉ SECTION 1. GENERAL PROVISIONS"
+            android:textSize="14sp"
+            android:textStyle="bold"
+             
+            android:paddingLeft="16dp"
+            android:paddingTop="8dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 238. Right to conduct marine scientific research"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 239. Promotion of marine scientific research"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 240. General principles for the conduct of marine scientific research"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 241. Non-recognition of marine scientific research activities as the legal basis for claims"
+            android:layout_marginLeft="16dp"/>
+
+        <!-- Section 2 -->
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="◉ SECTION 2. INTERNATIONAL COOPERATION"
+            android:textSize="14sp"
+            android:textStyle="bold"
+             
+            android:paddingLeft="16dp"
+            android:paddingTop="8dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 242. Promotion of international cooperation"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 243. Creation of favourable conditions"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 244. Publication and dissemination of information and knowledge"
+            android:layout_marginLeft="16dp"/>
+
+        <!-- Section 3 -->
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="◉ SECTION 3. CONDUCT AND PROMOTION OF MARINE SCIENTIFIC RESEARCH"
+            android:textSize="14sp"
+            android:textStyle="bold"
+             
+            android:paddingLeft="16dp"
+            android:paddingTop="8dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 245. Marine scientific research in the territorial sea"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 246. Marine scientific research in the exclusive economic zone and on the continental shelf"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 247. Marine scientific research projects undertaken by or under the auspices of international organizations"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 248. Duty to provide information to the coastal State"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 249. Duty to comply with certain conditions"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 250. Communications concerning marine scientific research projects"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 251. General criteria and guidelines"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 252. Implied consent"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 253. Suspension or cessation of marine scientific research activities"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 254. Rights of neighbouring land-locked and geographically disadvantaged States"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 255. Measures to facilitate marine scientific research and assist research vessels"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 256. Marine scientific research in the Area"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 257. Marine scientific research in the water column beyond the exclusive economic zone"
+            android:layout_marginLeft="16dp"/>
+
+        <!-- Section 4 -->
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="◉ SECTION 4. SCIENTIFIC RESEARCH INSTALLATIONS OR EQUIPMENT IN THE MARINE ENVIRONMENT"
+            android:textSize="14sp"
+            android:textStyle="bold"
+             
+            android:paddingLeft="16dp"
+            android:paddingTop="8dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 258. Deployment and use"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 259. Legal status"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 260. Safety zones"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 261. Non-interference with shipping routes"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 262. Identification markings and warning signals"
+            android:layout_marginLeft="16dp"/>
+
+        <!-- Section 5 -->
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="◉ SECTION 5. RESPONSIBILITY AND LIABILITY"
+            android:textSize="14sp"
+            android:textStyle="bold"
+             
+            android:paddingLeft="16dp"
+            android:paddingTop="8dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 263. Responsibility and liability"
+            android:layout_marginLeft="16dp"/>
+
+        <!-- Section 6 -->
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="◉ SECTION 6. SETTLEMENT OF DISPUTES AND INTERIM MEASURES"
+            android:textSize="14sp"
+            android:textStyle="bold"
+             
+            android:paddingLeft="16dp"
+            android:paddingTop="8dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 264. Settlement of disputes"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 265. Interim measures"
+            android:layout_marginLeft="16dp"/>
+
+        <!-- Part XIV -->
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="✓ PART XIV. DEVELOPMENT AND TRANSFER OF MARINE TECHNOLOGY"
+            android:textSize="14sp"
+            android:textStyle="bold"
+             
+            android:paddingLeft="16dp"
+            android:paddingTop="8dp"/>
+
+        <!-- Section 1 -->
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="◉ SECTION 1. GENERAL PROVISIONS"
+            android:textSize="14sp"
+            android:textStyle="bold"
+             
+            android:paddingLeft="16dp"
+            android:paddingTop="8dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 266. Promotion of the development and transfer of marine technology"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 267. Protection of legitimate interests"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 268. Basic objectives"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 269. Measures to achieve the basic objectives"
+            android:layout_marginLeft="16dp"/>
+
+        <!-- Section 2 -->
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="◉ SECTION 2. INTERNATIONAL COOPERATION"
+            android:textSize="14sp"
+            android:textStyle="bold"
+             
+            android:paddingLeft="16dp"
+            android:paddingTop="8dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 270. Ways and means of international cooperation"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 271. Guidelines, criteria and standards"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 272. Coordination of international programmes"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 273. Cooperation with international organizations and the Authority"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 274. Objectives of the Authority"
+            android:layout_marginLeft="16dp"/>
+
+        <!-- Section 3 -->
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="◉ SECTION 3. NATIONAL AND REGIONAL MARINE SCIENTIFIC AND TECHNOLOGICAL CENTRES"
+            android:textSize="14sp"
+            android:textStyle="bold"
+             
+            android:paddingLeft="16dp"
+            android:paddingTop="8dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 275. Establishment of national centres"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 276. Establishment of regional centres"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 277. Functions of regional centres"
+            android:layout_marginLeft="16dp"/>
+
+        <!-- Section 4 -->
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="◉ SECTION 4. COOPERATION AMONG INTERNATIONAL ORGANIZATIONS"
+            android:textSize="14sp"
+            android:textStyle="bold"
+             
+            android:paddingLeft="16dp"
+            android:paddingTop="8dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 278. Cooperation among international organizations"
+            android:layout_marginLeft="16dp"/>
+
+        <!-- Part XV -->
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="✓ PART XV. SETTLEMENT OF DISPUTES"
+            android:textSize="14sp"
+            android:textStyle="bold"
+             
+            android:paddingLeft="16dp"
+            android:paddingTop="8dp"/>
+
+        <!-- Section 1 -->
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="◉ SECTION 1. GENERAL PROVISIONS"
+            android:textSize="14sp"
+            android:textStyle="bold"
+             
+            android:paddingLeft="16dp"
+            android:paddingTop="8dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 279. Obligation to settle disputes by peaceful means"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 280. Settlement of disputes by any peaceful means chosen by the parties"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 281. Procedure where no settlement has been reached by the parties"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 282. Obligations under general, regional or bilateral agreements"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 283. Obligation to exchange views"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 284. Conciliation"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 285. Application of this section to disputes submitted pursuant to Part XI"
+            android:layout_marginLeft="16dp"/>
+
+        <!-- Section 2 -->
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="◉ SECTION 2. COMPULSORY PROCEDURES ENTAILING BINDING DECISIONS"
+            android:textSize="14sp"
+            android:textStyle="bold"
+             
+            android:paddingLeft="16dp"
+            android:paddingTop="8dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 286. Application of procedures under this section"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 287. Choice of procedure"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 288. Jurisdiction"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 289. Experts"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 290. Provisional measures"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 291. Access"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 292. Prompt release of vessels and crews"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 293. Applicable law"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 294. Preliminary proceedings"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 295. Exhaustion of local remedies"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 296. Finality and binding force of decisions"
+            android:layout_marginLeft="16dp"/>
+
+        <!-- Section 3 -->
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="◉ SECTION 3. LIMITATIONS AND EXCEPTIONS TO APPLICABILITY OF SECTION 2"
+            android:textSize="14sp"
+            android:textStyle="bold"
+             
+            android:paddingLeft="16dp"
+            android:paddingTop="8dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 297. Limitations on applicability of section 2"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 298. Optional exceptions to applicability of section 2"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 299. Right of the parties to agree upon a procedure"
+            android:layout_marginLeft="16dp"/>
+        <!-- Part XVI -->
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="✓ PART XVI. GENERAL PROVISIONS"
+            android:textSize="14sp"
+            android:textStyle="bold"
+             
+            android:paddingLeft="16dp"
+            android:paddingTop="8dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 300. Good faith and abuse of rights"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 301. Peaceful uses of the seas"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 302. Disclosure of information"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 303. Archaeological and historical objects found at sea"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 304. Responsibility and liability for damage"
+            android:layout_marginLeft="16dp"/>
+
+        <!-- Part XVII -->
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="✓ PART XVII. FINAL PROVISIONS"
+            android:textSize="14sp"
+            android:textStyle="bold"
+             
+            android:paddingLeft="16dp"
+            android:paddingTop="8dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 305. Signature"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 306. Ratification and formal confirmation"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 307. Accession"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 308. Entry into force"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 309. Reservations and exceptions"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 310. Declarations and statements"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 311. Relation to other conventions and international agreements"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 312. Amendment"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 313. Amendment by simplified procedure"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 314. Amendments to the provisions of this Convention relating exclusively to activities in the Area"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 315. Signature, ratification of, accession to and authentic texts of amendments"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 316. Entry into force of amendments"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 317. Denunciation"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 318. Status of Annexes"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 319. Depositary"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView 
+        android:textColor="@color/textSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   • Article 320. Authentic texts"
+            android:layout_marginLeft="16dp"/>
+
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/popup_root"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/popup_menu_background">
+
+    <TextView
+        android:id="@+id/menu_delete"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:text="Remove"
+        android:gravity="center_horizontal"
+        android:textColor="@color/text_tertiary"
+        android:textSize="20sp"
+        android:clickable="true"
+        android:focusable="true" />
+
+    <!-- Add more menu items here if needed -->
+
+</LinearLayout>

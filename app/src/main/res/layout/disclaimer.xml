@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/disclaimerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:padding="@dimen/disclaimer_screen_padding">
+
+    <!-- Header with centered logo -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/disclaimer_header_padding_bottom">
+
+        <ImageView
+            android:layout_width="@dimen/disclaimer_logo_size"
+            android:layout_height="@dimen/disclaimer_logo_size"
+            android:contentDescription="@string/app_logo_desc"
+            android:src="@drawable/unclos1" />
+    </LinearLayout>
+
+    <!-- Disclaimer Title with Icon -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/disclaimer_title_padding_bottom">
+
+        <ImageView
+            android:layout_width="@dimen/disclaimer_icon_size"
+            android:layout_height="@dimen/disclaimer_icon_size"
+            android:contentDescription="@string/disclaimer_icon_desc"
+            android:src="@drawable/ida" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/disclaimer_text_icon_spacing"
+            android:text="@string/disclaimer_title"
+            android:textColor="@color/Special_text"
+            android:textSize="@dimen/disclaimer_title_text_size"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <!-- Disclaimer Text -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="20dp"
+        android:fadeScrollbars="false"
+        android:paddingBottom="@dimen/disclaimer_text_padding_bottom">
+
+        <TextView
+            android:id="@+id/disclaimerText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="@dimen/disclaimer_line_spacing"
+            android:justificationMode="inter_word"
+            android:text="@string/disclaimer_full_text"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/disclaimer_body_text_size" />
+    </ScrollView>
+
+    <!-- Buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="20dp"
+        android:paddingTop="@dimen/disclaimer_buttons_padding_top">
+
+        <Button
+            android:id="@+id/agreeButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/easyColor"
+            android:text="Agree"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton" />
+
+        <Space
+            android:layout_width="@dimen/disclaimer_button_spacing"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/exitButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/againColor"
+            android:text="Exit"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton" />
+    </LinearLayout>
+</LinearLayout>

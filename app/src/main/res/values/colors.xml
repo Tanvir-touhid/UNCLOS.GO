@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <!-- Primary Colors -->
+    <color name="progress_tint">#2196F3</color> <!-- Blue for light mode -->
+    <color name="progress_card_bg">#F5F5F5</color> <!-- light mode -->
+
+    <color name="text_color">#000000</color>
+
+    <color name="borderColor">#434343</color>
+
+    <color name="textPrimary">#FFFFFF</color> <!-- Black for light theme -->
+    <color name="textSecondary">#000000</color>
+    <color name="colorPrimary">#FF072b62</color>
+    <color name="colorPrimaryDark">#F8F9FA</color> <!-- Black#2A8CDB for light theme -->
+    <color name="colorAccent">#D2D2E4</color>
+    <color name="colorOnPrimary">#000000</color> <!-- Black text on primary color in light mode -->
+    <color name="colorOnSecondary">#000000</color> <!-- Black text on secondary color in light mode -->
+
+    <color name="text_tertiary">#ffffff</color>
+
+    <color name="blue">#2196F3</color>
+    <color name="french_blue">#99A6F0</color>
+
+    <color name="less_important_texts">#545456</color>
+
+    <color name="button_mark_read">#B3D987</color>  <!-- Green -->
+    <color name="button_add_flashcard">#F4E574</color>  <!-- Amber/Yellow -->
+    <color name="button_text_dark">#000000</color>  <!-- Black text for light buttons -->
+
+    <color name="blue_card">#039BE5</color>
+
+    <!-- For the track (background) of the switch -->
+    <color name="switch_track">#BDBDBD</color>  <!-- Light gray when off -->
+    <color name="switch_track_checked">@color/colorPrimary</color>  <!-- Light version of your primary color -->
+
+    <!-- Background Colors -->
+    <color name="colorBackground">#FFFFFF</color> <!-- Main background -->
+    <color name="colorSurface">#f0f0f0</color>    <!-- For cards/surfaces -->
+    <color name="colorBackgroundVariant">#F5F5F5</color> <!-- Slightly darker bg -->
+
+    <!-- Text Colors -->
+    <color name="colorOnBackground">#000000</color> <!-- Primary text -->
+    <color name="colorOnSurface">#000000</color>    <!-- Text on surfaces -->
+    <color name="colorTextSecondary">#757575</color> <!-- Secondary text -->
+    <color name="colorTextHint">#BDBDBD</color>     <!-- Hint text -->
+
+    <!-- State Colors -->
+    <color name="colorError">#F44336</color>
+    <color name="colorSuccess">#4CAF50</color>
+
+    <color name="readNowButtonBg">#E7E5FF</color> <!-- light purple -->
+    <color name="reviewFlashcardsBg">#FFFCF1</color> <!-- soft yellow -->
+    <color name="buttonTextColor">#000000</color>
+
+    <color name="colorSurfaceVariant">#EFEEF2</color> <!-- Light mode surface variant -->
+    <color name="colorOnSurfaceVariant">#49454F</color> <!-- Light mode on surface variant -->
+    <color name="colorOutline">#79747E</color> <!-- Light mode outline -->
+
+    <color name="cardBackgroundLight">#F5F5F5</color> <!-- Soft gray -->
+
+    <color name="againColor">#BD0909</color>
+    <color name="hardColor">#FB5F2D</color>
+    <color name="easyColor">#789D48</color>
+
+    <color name="white_20">#33FFFFFF</color>
+
+    <color name="white_translucent">#80FFFFFF</color>
+    <color name="semi_transparent_primary">#CCBABABC</color>
+
+    <color name="article_reading_background">#E0E0E0</color>
+
+    <color name="Special_text">#FF072b62</color>
+
+
+
+</resources>

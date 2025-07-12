@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!-- Main items group -->
+    <group android:checkableBehavior="none">
+
+        <item
+            android:id="@+id/history_of_unclos"
+            android:icon="@drawable/ic_history"
+            android:title="History of UNCLOS" />
+        <item
+            android:id="@+id/table_of_content"
+            android:icon="@drawable/ic_content"
+            android:title="Table of Contents" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_settings"
+            android:title="Settings" />
+        <item
+            android:id="@+id/faq"
+            android:icon="@drawable/ic_faq"
+            android:title="FAQ" />
+        <item
+            android:id="@+id/rateUs"
+            android:icon="@drawable/ic_rate_us"
+            android:title="Rate Us" />
+        <item
+            android:id="@+id/share"
+            android:icon="@drawable/ic_share"
+            android:title="Share" />
+        <item
+            android:id="@+id/nav_credits"
+            android:icon="@drawable/ic_cu"
+            android:title="Contact Us" />
+
+
+    </group>
+
+    <!-- Add dummy spacer item with no ID and no icon/title -->
+
+
+    <!-- Spacer group (optional: adds margin) -->
+    <!-- Exit App at the bottom -->
+    <group android:checkableBehavior="none">
+
+        <item
+            android:id="@+id/spacer"
+            android:title=""
+            android:icon="@null"
+            app:actionLayout="@layout/menu_item_spacer"
+            android:enabled="false"
+            android:checkable="false" />
+        <!-- Remove the spacer and exit item from the current group -->
+        <!-- Add this at the bottom of the file, outside any groups -->
+        <item
+            android:id="@+id/nav_exit"
+            android:title=""
+            android:icon="@null"
+            app:actionLayout="@layout/menu_item_exit"
+            android:enabled="true"
+            android:checkable="false" />
+
+    </group>
+</menu>

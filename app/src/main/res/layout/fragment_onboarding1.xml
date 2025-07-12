@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/welcomeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/testtttt"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/aboveButtonImage"
+        android:layout_width="450dp"
+        android:layout_height="400dp"
+        android:layout_marginTop="@dimen/onboarding_vertical_spacing_large"
+        android:src="@drawable/expt2"
+        android:translationY="60dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <!-- Get Started Button -->
+    <Button
+        android:id="@+id/getStartedButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/onboarding_horizontal_spacing"
+        android:layout_marginEnd="@dimen/onboarding_horizontal_spacing"
+        android:layout_marginBottom="@dimen/onboarding_vertical_spacing_large"
+        android:background="@drawable/gradient_button"
+        android:text="@string/get_started"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

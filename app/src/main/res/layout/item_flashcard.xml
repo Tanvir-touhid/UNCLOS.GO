@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="6dp"
+    app:strokeWidth="1dp"
+    app:strokeColor="@color/borderColor"
+    app:cardBackgroundColor="@color/progress_card_bg">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <!-- Title -->
+        <TextView
+            android:id="@+id/text_view_flashcard_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@+id/more_button"
+            android:layout_alignParentTop="true"
+            android:text="⚡ Test Flashcard"
+            android:layout_centerVertical="true"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/textSecondary"
+            android:maxLines="5"
+            android:gravity="center"
+            android:ellipsize="end"
+            android:fontFamily="sans-serif-medium"/>
+
+        <!-- Content -->
+        <TextView
+            android:id="@+id/text_view_flashcard_content"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_below="@id/text_view_flashcard_title"
+            android:layout_toStartOf="@id/more_button"
+            android:text="This is test content."
+            android:textSize="16sp"
+            android:textColor="@color/textPrimary"
+            android:lineSpacingExtra="6dp"
+            android:paddingTop="8dp"
+            android:fontFamily="sans-serif"/>
+
+        <!-- More options button -->
+        <ImageButton
+            android:id="@+id/more_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_more_vert"
+            app:tint="@color/textSecondary"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="More options"
+            android:padding="8dp"/>
+
+    </RelativeLayout>
+
+</com.google.android.material.card.MaterialCardView>

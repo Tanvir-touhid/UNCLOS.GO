@@ -1,0 +1,37 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- Text sizes -->
+    <dimen name="onboarding_title_text_size">20sp</dimen>
+    <dimen name="onboarding_body_text_size">20sp</dimen>
+
+    <!-- Sizes -->
+    <dimen name="onboarding_logo_size">200dp</dimen>
+    <dimen name="onboarding_character_size">93dp</dimen>
+
+    <!-- Spacing -->
+    <dimen name="onboarding_vertical_spacing_large">48dp</dimen>
+    <dimen name="onboarding_vertical_spacing_medium">16dp</dimen>
+    <dimen name="onboarding_horizontal_spacing">16dp</dimen>
+
+    <!-- Add these to your existing dimens.xml -->
+    <dimen name="onboarding_screen_padding">16dp</dimen>
+    <dimen name="onboarding_vertical_spacing_extra_large">40dp</dimen>
+    <dimen name="onboarding_button_horizontal_margin">32dp</dimen>
+    <dimen name="onboarding_button_bottom_margin">32dp</dimen>
+
+    <dimen name="disclaimer_screen_padding">24dp</dimen>
+    <dimen name="disclaimer_logo_size">64dp</dimen>
+    <dimen name="disclaimer_icon_size">24dp</dimen>
+    <dimen name="disclaimer_title_text_size">24sp</dimen>
+    <dimen name="disclaimer_body_text_size">16sp</dimen>
+    <dimen name="disclaimer_line_spacing">4dp</dimen>
+    <dimen name="disclaimer_text_icon_spacing">8dp</dimen>
+    <dimen name="disclaimer_header_padding_bottom">16dp</dimen>
+    <dimen name="disclaimer_title_padding_bottom">24dp</dimen>
+    <dimen name="disclaimer_text_padding_bottom">16dp</dimen>
+    <dimen name="disclaimer_buttons_padding_top">16dp</dimen>
+    <dimen name="disclaimer_button_spacing">16dp</dimen>
+</resources>

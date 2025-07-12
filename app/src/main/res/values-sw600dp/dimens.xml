@@ -1,0 +1,7 @@
+<resources>
+    <dimen name="onboarding_title_text_size">24sp</dimen>
+    <dimen name="onboarding_body_text_size">18sp</dimen>
+    <dimen name="onboarding_logo_size">240dp</dimen>
+    <dimen name="onboarding_character_size">120dp</dimen>
+    <dimen name="onboarding_vertical_spacing_large">64dp</dimen>
+</resources>

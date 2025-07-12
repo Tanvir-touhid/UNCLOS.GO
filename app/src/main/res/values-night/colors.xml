@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors (can adjust for dark mode) -->
+    <color name="progress_tint">#64B5F6</color> <!-- Lighter blue for dark mode -->
+    <color name="progress_card_bg">#0F0F0F</color> <!-- dark mode -->
+
+    <color name="text_color">#FFFFFF</color>
+
+    <color name="french_blue">#1E1E1E</color>
+
+
+    <color name="colorPrimary">#303637</color>
+    <color name="textPrimary">#000000</color> <!-- White for dark theme -->
+    <color name="textSecondary">#DEDDDD</color>
+    <color name="colorPrimaryDark">#151618</color>
+    <color name="colorAccent">#3399FF</color>
+
+    <color name="button_mark_read">#1E1E1E</color>  <!-- Green -->
+    <color name="button_add_flashcard">#1E1E1E</color>  <!-- Amber/Yellow -->
+    <color name="button_text_dark">#000000</color>  <!-- Black text for light buttons -->
+
+    <!-- Background Colors -->
+    <color name="colorBackground">#121212</color> <!-- Main background -->
+    <color name="colorSurface">#1E1E1E</color>   <!-- For cards/surfaces -->
+    <color name="colorBackgroundVariant">#2D2D2D</color> <!-- Slightly darker bg -->
+
+    <!-- Text Colors -->
+    <color name="colorOnBackground">#FFFFFF</color> <!-- Primary text -->
+    <color name="colorOnSurface">#FFFFFF</color>    <!-- Text on surfaces -->
+    <color name="colorTextSecondary">#BDBDBD</color> <!-- Secondary text -->
+    <color name="colorTextHint">#757575</color>     <!-- Hint text -->
+
+    <color name="colorOnPrimary">#FFFFFF</color>
+    <color name="colorOnSecondary">#FFFFFF</color>
+
+    <color name="less_important_texts">#D5D5D7</color>
+
+
+    <!-- State Colors -->
+    <color name="colorError">#FF5722</color>       <!-- Adjusted for dark theme -->
+    <color name="colorSuccess">#1E1E1E</color>    <!-- Adjusted for dark theme -->
+
+    <color name="readNowButtonBg">#303637</color> <!-- deeper purple for dark -->
+    <color name="reviewFlashcardsBg">#303637</color> <!-- golden tone for dark -->
+    <color name="buttonTextColor">#FFFFFF</color>
+
+    <color name="colorSurfaceVariant">#49454F</color>
+    <color name="colorOnSurfaceVariant">#CAC4D0</color>
+    <color name="colorOutline">#938F99</color>
+
+    <color name="cardBackgroundLight">#333232</color> <!-- Soft gray -->
+
+    <color name="article_reading_background">#2C2B2B</color>
+
+    <color name="Special_text">#ffffff</color>
+
+
+</resources>

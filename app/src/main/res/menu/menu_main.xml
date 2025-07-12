@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Settings item -->
+    <item
+        android:id="@+id/menu_settings"
+        android:title="Settings"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <!-- Credits item -->
+    <item
+        android:id="@+id/menu_credits"
+        android:title="Credits"
+        android:orderInCategory="101"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/history_of_unclos"
+        android:icon="@drawable/ic_history"
+        android:title="History of UNCLOS"
+        android:orderInCategory="100"/>
+
+    <item
+        android:id="@+id/nav_exit"
+        android:icon="@drawable/ic_exit"
+        android:title="Exit App"
+        android:orderInCategory="100"/>
+</menu>

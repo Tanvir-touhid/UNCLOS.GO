@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">UNCLOS GO</string>
+    <string-array name="dark_mode_options">
+        <item>Light</item>
+        <item>Dark</item>
+    </string-array>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="select_font_size">Select font size</string>
+    <string name="theme_settings">Theme Settings</string>
+    <string name="app_theme">App Theme</string>
+    <string name="toggle_dark_mode">Toggle dark mode</string>
+    <string name="explain_content_action">Explain article content</string>
+    <string name="article_icon_desc">Article icon</string>
+    <string name="arrow_icon_desc">Arrow icon</string>
+
+
+    <string name="empty_flashcards_icon">Empty flashcards icon</string>
+    <string name="no_flashcards_title">No flashcards added yet</string>
+
+    <string name="app_logo_desc">App Logo</string>
+    <string name="character_icon_desc">Character Icon</string>
+    <string name="welcome_title">Welcome to UNCLOS GO!</string>
+    <string name="welcome_description">Your journey to mastering\nthe Law of the Sea here!</string>
+    <string name="get_started">Get Started</string>
+
+    <!-- Onboarding Screen 2 -->
+    <string name="onboarding2_title">Add Articles to Flashcards</string>
+    <string name="onboarding2_description">Choose articles from UNCLOS and add them to\nyour flashcard deck for review later.</string>
+    <string name="flashcards_illustration_desc">Flashcards illustration</string>
+
+    <!-- Onboarding Screen 3 -->
+    <string name="onboarding3_title">Intelligent Scheduling</string>
+    <string name="onboarding3_description">Just rate how well you remember it — the app will handle the rest and schedule your next review.</string>
+    <string name="scheduling_illustration_desc">Scheduling illustration</string>
+
+    <string name="rate_our_app">Rate Our App</string>
+    <string name="rate_app_message">If you enjoy using UNCLOS GO, please take a moment to rate it. Your support helps us improve!</string>
+    <string name="rate_now">Rate Now</string>
+    <string name="later">Later</string>
+    <string name="never">Never</string>
+
+    <string name="share_app_title">Share UNCLOS GO</string>
+    <string name="share_app_prompt">Tell your friends about UNCLOS GO and help more learners discover it!</string>
+    <string name="share_app_message">Check out %1$s - an awesome app for UNCLOS learning: %2$s</string>
+    <string name="share_now">Share Now</string>
+    <string name="cancel">Cancel</string>
+    <string name="share_via">Share via</string>
+    <string name="no_sharing_app_found">No sharing apps available</string>
+
+    <!-- Common -->
+    <string name="next">Next</string>
+
+    <string name="disclaimer_icon_desc">Disclaimer Icon</string>
+    <string name="disclaimer_title">Disclaimer</string>
+    <string name="agree">Agree</string>
+    <string name="exit">Exit</string>
+    <string name="disclaimer_full_text">This app is independently developed and is not affiliated with, endorsed by, or associated with the United Nations or any of its agencies. The text of the United Nations Convention on the Law of the Sea (UNCLOS) used in this app is in the public domain. The explanations provided in the app are generated with the assistance of ChatGPT.\n\nThe information in this app is intended for educational purposes only and is provided in good faith. However, we make no representations or warranties of any kind, express or implied, about the accuracy, completeness, reliability, or suitability of this information. Any reliance you place on such information is strictly at your own risk. This app does not substitute for professional advice. We will not be liable for any loss or damage arising from the use of this app.\n\nBy using this app, you agree to these terms.</string>
+
+</resources>
+
+
+

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    android:padding="@dimen/onboarding_screen_padding">
+
+    <ImageView
+        android:id="@+id/aboveButtonImage"
+        android:layout_width="550dp"
+        android:layout_height="500dp"
+        android:layout_marginTop="@dimen/onboarding_vertical_spacing_large"
+        android:src="@drawable/expt"
+        android:translationY="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Next Button stays fixed at the bottom -->
+    <Button
+        android:id="@+id/nextButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/onboarding_button_horizontal_margin"
+        android:layout_marginBottom="@dimen/onboarding_button_bottom_margin"
+        android:background="@drawable/gradient_button"
+        android:text="@string/next"
+        android:textColor="@color/textPrimary"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
