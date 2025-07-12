@@ -1,6 +1,6 @@
 # Unclos go 🚀
 
-Unclos go is an offline Android app that provides 320 articles for reading and testing. It's lightweight, fast, and user-friendly.
+Unclos go is an offline Android app of UNCLOS that provides 320 articles for reading and testing. It's lightweight, fast, and user-friendly.
 
 ## 📱 Features
 
@@ -53,4 +53,4 @@ Unclos go is an offline Android app that provides 320 articles for reading and t
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/yourusername/unclos-go.git
+   git clone https://github.com/Tanvir-touhid/UNCLOS.GO.git
